@@ -1,0 +1,12 @@
+services:
+  qanda:
+    build: .
+    container_name: qanda
+    restart: unless-stopped
+    ports:
+      - "8928:8928"
+    volumes:
+      - ./data:/data
+    environment:
+      - PORT=8928
+      - DATA_DIR=/data

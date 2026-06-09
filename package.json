@@ -1,0 +1,1 @@
+{"name":"qanda-truenas-learning-app","version":"1.0.0","private":true,"type":"module","description":"Dark Q&A, flashcards and exam learning web app for TrueNAS SCALE on port 8928.","scripts":{"start":"node server.js","dev":"node --watch server.js"},"dependencies":{"express":"^4.19.2"},"engines":{"node":">=20"}}
